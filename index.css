@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(Food_background/chicken-tomato-sauce-with-rice.jpg);   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+h1{
+    font-size: 45px;
+    color: rgb(243, 242, 242);
+    text-align: center;
+}
+.contain{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px;
+    color: rgb(232, 228, 228);
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+.home, .contact, .about{
+    border: 2px solid rgb(201, 196, 196);
+    padding: 10px;
+    transition: 1s ease;
+    backdrop-filter: blur(10px);
+    background-color: rgb(255, 255, 255, 0.1) ;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.home:hover, .contact:hover, .about:hover{
+    background-color: rgb(236, 219, 219);
+    cursor: pointer;
+   
+}
+.content{
+    width: 500px;
+    height: 70vh;
+    transition: 1s ease;
+    background-color: inherit;
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    place-content: center;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+h4{
+    margin-top: -6rem;
+    text-align: center;
+    color: rgb(214, 144, 40);
+    font-size: 25px;
+
+}
+
+.image{
+    width:100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: auto;
+    
+}
+
+.main{
+    display: table-column;
+    justify-content: center;
+    padding: 5px;
+    background-color: aliceblue;
+    padding-left: 30px;
+}
+
+.flex{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+
+.pizza{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.country{
+    text-align: center;
+    font-weight: bold;
+}
+
+.order{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(231, 230, 230);
+    border: none;
+    border-radius: 10px;
+    color: burlywood;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.order:hover{
+    background-color: rgb(224, 211, 211);
+}
+
+.visit{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container{
+    text-align: center;
+    color: rgb(214, 144, 40);
+}
+h2{
+    color: white;
+}
+p{
+    color: rgb(214, 144, 40);
+    text-align: center;
+}
+.change{
+    color: rgb(255, 253, 250);
+    font-size: 20px;
+}
+
+ul{
+    color: rgb(137, 81, 4);
+}
+ol {
+    color: rgb(204, 138, 39);
+    font-size: 20px;
+}
